@@ -1,2 +1,2 @@
 # React-Projects
-This repository contains all the ReactJs projects I have build.
+This repository contains the ReactJs projects that I have build.
