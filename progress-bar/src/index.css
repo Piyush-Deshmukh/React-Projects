@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.progress {
+    position: relative;
+    height: 30px;
+    width: 720px;
+    max-width: 90vw;
+    background-color: rgb(174, 173, 173);
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.progress span {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.progress div {
+    background: greenyellow;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    transition: .2s all ease-in-out;
+}
